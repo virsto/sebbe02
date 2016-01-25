@@ -5,14 +5,22 @@ date:   2016-01-20
 tags: [jekyll, web design, blogging, yaml, liquid]
 ---
 
-Welcome to the companion site for the [lynda.com](http://www.lynda.com "lynda.com") course *Jekyll for Web Designers*. This course is designed to present Jekyll to web designers in a clear, concise way. In this post we’ll take a quick look at how Jekyll works, and whether it’s right for you. 
+Welcome to the 2nd mockup of Sebbe's first blog. For now, one can consider these notes on the contruction of this site as just a placeholder for the Swedish text
+to come later. However, these notes could be useful for someone that wanted to know more how to use Jekyll for the construction of a static web site. 
 
-[Jekyll][1] bills itself as “a simple, blog-aware, static site generator.” It takes source files like templates, stylesheets, includes, and posts and uses them to generate a website that can then be hosted on your server of choice. This means that the entire website is generated at once, and visitors are simply served static files. This can be much faster than blogging platforms like WordPress, which use a CMS to generate pages as they’re requested. [This blog]({{site.baseurl}}/index.html "articles"), for example, was generated from a series of templates, posts, html snippets, and CSS using Jekyll.
+[Jekyll][1] bills itself as “a simple, blog-aware, static site generator.” It takes source files like templates, stylesheets, includes, 
+and posts and uses them to generate a website that can then be hosted on your server of choice. This means that the entire website is 
+generated at once, and visitors are simply served static files. This can be much faster than blogging platforms like WordPress, which use 
+a CMS to generate pages as they’re requested. [This blog]({{site.baseurl}}/index.html "articles"), for example, was generated from a 
+series of templates, posts, html snippets, and CSS using Jekyll.
 
 >When you remove layers, simplicity and speed happen.
 <cite>&mdash; Ginni Rometty</cite>
 
-Although Jekyll is built to be “blog aware,” it’s important to point out that it is not blogging software in the traditional sense. It’s simply a parsing engine that builds what you put into it. This means that while you have total control over every aspect of your site, you also have to build everything as well. That may sound daunting at first, but once you get the hang of how it works you can quickly and easily start building Jekyll-driven sites.
+Although Jekyll is built to be “blog aware,” it’s important to point out that it is not blogging software in the traditional sense. It’s 
+simply a parsing engine that builds what you put into it. This means that while you have total control over every aspect of your site, you
+ also have to build everything as well. That may sound daunting at first, but once you get the hang of how it works you can quickly and 
+ easily start building Jekyll-driven sites.
 
 ###How Jekyll works
 
